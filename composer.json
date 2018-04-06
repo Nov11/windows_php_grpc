@@ -1,0 +1,11 @@
+{
+  "require": {
+    "grpc/grpc": "v1.10.0",
+    "google/protobuf": "v3.5.1"
+  },
+  "autoload":{
+    "psr-4":{
+      "GPBMetadata\\":"GPBMetadata/",
+      "Calc\\":"Calc/"
+    }
+}
